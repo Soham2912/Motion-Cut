@@ -29,7 +29,7 @@ public class LinkShortener {
     }
 
     private String generateShortUrl() {
-        // Simple implementation of a hash function using the current time
+        
         return String.valueOf(System.currentTimeMillis() % 10000);
     }
 
